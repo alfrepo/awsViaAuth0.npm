@@ -1,0 +1,14 @@
+{
+  "name": "awsviaauth0",
+  "version": "1.0.0",
+  "description": "aws via auth0",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve -p 3000"
+  },
+  "author": "Alexander Friesen",
+  "license": "ISC",
+  "dependencies": {
+    "auth0-js": "^9.0.0"
+  }
+}

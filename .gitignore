@@ -1,0 +1,6 @@
+node_modules
+/.idea
+/gen_browserifybundle.js
+/generated_browserifybundle.js
+/js-variables.js
+/infrastructure/auth0-variables.py
