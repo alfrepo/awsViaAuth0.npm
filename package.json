@@ -1,19 +1,14 @@
 {
-  "name": "singlepageapp",
+  "name": "awsviaauth0",
   "version": "1.0.0",
-  "description": "Single page app",
+  "description": "aws via auth0",
   "main": "app.js",
   "scripts": {
-    "browserify": "browserify js-index.js > generated_browserifybundle.js",
     "start": "serve -p 3000"
   },
   "author": "Alexander Friesen",
   "license": "ISC",
   "dependencies": {
-    "popups": "^1.1.3"
-  },
-  "devDependencies": {
-    "browserify": "^16.2.3",
-    "serve": "^10.1.2"
+    "auth0-js": "^9.0.0"
   }
 }
