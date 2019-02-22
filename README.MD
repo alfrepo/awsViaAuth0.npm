@@ -25,9 +25,8 @@ browserify - it will compile once
     browserify js-index.js > generated_browserifybundle.js
 
 
-start the webserver with the application on the
+start the webserver with the application on the port 3000
 
-    port 3000
     serve -p 3000
 
 # All project creation steps 

@@ -4,11 +4,14 @@
   "description": "aws via auth0",
   "main": "app.js",
   "scripts": {
-    "start": "serve -p 3000"
+    "start": "serve -p 4200",
+    "build": "browserify js-index.js > generated_browserifybundle.js"
   },
   "author": "Alexander Friesen",
   "license": "ISC",
   "dependencies": {
-    "auth0-js": "^9.0.0"
+    "auth0-js": "^9.0.0",
+    "browserify": "^16.2.3",
+    "serve": "^10.1.2"
   }
 }
